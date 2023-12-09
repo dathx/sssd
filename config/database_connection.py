@@ -1,7 +1,7 @@
 import pyodbc
 
 class ConnectDB:
-    def __init__(self, drive = 'SQL Server' , server = 'VN-PF27VFXB', database = 'duan1_final', username = 'sa', password = 'P@ssword123456'):
+    def __init__(self, drive = 'SQL Server' , server = 'localhost', database = 'store_management_dev', username = 'sa', password = '123'):
         self.drive = drive
         self.server = server
         self.database = database
